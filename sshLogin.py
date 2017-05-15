@@ -1,6 +1,7 @@
-# 脚本没有跑过 仅作为练习
 
 # -*- coding:utf-8 -*-
+# 脚本没有跑过 仅作为练习
+
 # import pexpect
 # PROMPT = ['#','>>>','> ','\$']
 
@@ -39,7 +40,15 @@
 # if __name__ == '__main__':
 # 	main()
 
-import pxssh
+
+'''
+http://stackoverflow.com/questions/36873940/cannot-import-name-spawn-for-pexpect-while-using-pxssh
+pxssh is not currently supported on Windows 
+
+'''
+
+from pexpect import pxssh
+
 import optparse
 import time
 import threading
