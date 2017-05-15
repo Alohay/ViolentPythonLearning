@@ -1,0 +1,3 @@
+# ViolentPythonLearning
+
+ Codes in ViolentPython
